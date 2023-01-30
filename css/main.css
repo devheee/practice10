@@ -1,0 +1,188 @@
+.header .inner {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header .inner ul {
+    display: flex;
+    gap: 60px;
+}
+
+.header .inner h1 {
+    font-size: 0;
+}
+
+
+.mainVisual .mainslide figure {
+    height: 600px;
+}
+
+.mainVisual .mainslide {
+    position: relative;
+}
+
+.mainslide .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.mainslide .slick-dots>li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.mainslide .slick-dots>li button {
+    font-size: 0;
+    border: none;
+
+    width: 15px;
+    height: 15px;
+    background: #600F10;
+    border-radius: 50%;
+}
+
+.mainslide .slick-dots>li.slick-active button {
+    background: #fff;
+}
+
+
+
+
+
+.mainContent {
+    padding: 50px 0 70px 0;
+}
+
+.mainContent h2 {
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    padding: 50px 0;
+}
+
+.mainContent h2 strong {
+    display: block;
+    font-weight: 700;
+}
+
+
+.mainContent .inner .content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding: 50px 0 0 0;
+}
+
+.mainContent .inner .bg {
+    background: #f9f9f9;
+    padding: 0 0 50px 0;
+}
+
+.mainContent .left .text>h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.mainContent .left .text>h3 strong {
+    position: relative;
+    font-weight: 700;
+}
+
+.mainContent .left h3 strong::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #111;
+}
+
+.mainContent .left .text p {
+    margin: 20px 0 0 0;
+    line-height: 25px;
+    word-break: keep-all;
+}
+
+.mainContent .left .text>img {
+    padding: 20px 0 20px 150px;
+}
+
+.mainContent .left .text .strp {
+    font-size: 18px;
+}
+
+
+.mainContent .left .text>h3 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.mainContent .left .text>h3 strong {
+    position: relative;
+    font-weight: 700;
+}
+
+.mainContent .left h3 strong::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #111;
+}
+
+
+
+.mainContent .right .text>h3 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.mainContent .right .text>h3 strong {
+    position: relative;
+    font-weight: 700;
+}
+
+.mainContent .right h3 strong::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #111;
+}
+
+.mainContent .right .text p {
+    margin: 20px 0 0 0;
+    line-height: 25px;
+    word-break: keep-all;
+    text-align: right;
+}
+
+
+
+.mainMenu {
+    height: 100vh;
+    background: url(../img/menubg.jpg) no-repeat center center/cover;
+}
+
+.mainMenu h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0 0 0;
+}
