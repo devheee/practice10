@@ -49,6 +49,7 @@ body {
     font-family: 'Roboto', 'Noto Sans KR', sans-serif;
     line-height: 1;
     color: #111;
+    padding-top: 100px;
 }
 
 .cf::after,
