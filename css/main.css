@@ -70,6 +70,7 @@
 .header .inner h1 {
     width: 145px;
     font-size: 0;
+    line-height: 1;
 }
 
 
@@ -111,6 +112,12 @@
 .mainslide .slick-dots>li.slick-active button {
     background: #fff;
 }
+
+.main_slide .slick-list,
+.main_slide .slick-track {
+    transition-delay: 0.03s;
+}
+
 
 .mainVisual .slide_arrow {
     position: absolute;
@@ -159,9 +166,9 @@
     width: 500px;
 }
 
-.mainBoard .inner a {
+/* .mainBoard .inner a {
     vertical-align: middle;
-}
+} */
 
 .mainBoard .inner a img {
     width: 20px;
@@ -340,7 +347,7 @@
 
 .mainInfo .inner .graph .itm:hover {
     padding: 20px;
-    border: 1px solid #111;
+    outline: 1px solid #111;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: 0.5s;
 }
@@ -403,6 +410,29 @@
 .footer .inner .text .bold {
     color: #fff;
     font-weight: 600;
+}
+
+
+.mainBoard .inner .abot {
+    position: relative;
+    display: flex;
+}
+
+.mainBoard .inner .abot a {
+    position: absolute;
+    left: 115px;
+    bottom: 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.mainBoard .inner .abot .econ {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 .notice_con {
